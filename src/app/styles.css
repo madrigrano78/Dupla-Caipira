@@ -1,0 +1,49 @@
+.container-dupla {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0 auto;
+
+}
+
+.background-dupla {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100%;
+}
+
+.container-tiao {
+
+    position: fixed;
+    background-color: white;
+    width: 70%;
+    height:70%;
+    left: 40%;
+    top: 20px;
+    padding: 20px;
+}
+
+.img-tiao-carreiro {
+ position: relative;
+ left: 50%;
+ margin-left: 120px;
+ top: 50%;
+ margin-top:75px;
+ width: 50%;
+ height: 50%;
+ background: white;
+ font-size: 20%;
+}
+
+.container-player {
+ position: absolute;
+}
+
+.search-button {
+ position: absolut
+}
