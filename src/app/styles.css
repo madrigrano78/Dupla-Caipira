@@ -1,49 +1,85 @@
-.container-dupla {
+.root-container{
     display: flex;
-
-    width: 100vw;
+    align-items: flex-start;
+    justify-content: center;
     height: 100vh;
-
-    margin: 0 auto;
-
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .background-dupla {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    width: 100%;
-    height: 100%;
+.container-dupla {
+  display: flex;
+  z-index: 5;
+  padding: 25px;
+  flex-direction: column;
+  width: 1700px;
+  max-width: 1980px;
+  min-width: 800px;
 }
 
 .container-tiao {
 
-    position: fixed;
-    background-color: white;
-    width: 70%;
-    height:70%;
-    left: 40%;
-    top: 20px;
-    padding: 20px;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  padding: 25px;
+  
 }
 
 .img-tiao-carreiro {
- position: relative;
- left: 50%;
- margin-left: 120px;
- top: 50%;
- margin-top:75px;
- width: 50%;
- height: 50%;
- background: white;
- font-size: 20%;
+  width: 180px;
+  height: 80px;
 }
 
-.container-player {
- position: absolute;
+.first-title {
+    font-size: 50px;
+    font-weight: 100;
+    color: rgb(63, 63, 63);
+  }
+
+  .container-player {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.70);
+    flex-direction: column;
+}
+
+.container-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 20px;
+}
+
+.search-p {
+    padding-left: 25px;
+    padding-top: 20px;
+    opacity: 0.5;
+}
+
+.search-bar {
+    width: 85%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    padding: 25px;
+    font-size: 17px;
 }
 
 .search-button {
- position: absolut
+    width: 220px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(151, 151, 255);
+    font-size: 17px;
 }
