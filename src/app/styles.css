@@ -1,10 +1,10 @@
-.root-container{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
+.root-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .background-dupla {
@@ -15,7 +15,7 @@
 
 .container-dupla {
   display: flex;
-  z-index: 5;
+  z-index: 2;
   padding: 25px;
   flex-direction: column;
   width: 1700px;
@@ -24,13 +24,11 @@
 }
 
 .container-tiao {
-
   display: flex;
   background-color: white;
   width: 100%;
   justify-content: space-between;
   padding: 25px;
-  
 }
 
 .img-tiao-carreiro {
@@ -39,47 +37,152 @@
 }
 
 .first-title {
-    font-size: 50px;
-    font-weight: 100;
-    color: rgb(63, 63, 63);
-  }
-
-  .container-player {
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.70);
-    flex-direction: column;
+  font-size: 50px;
+  font-weight: 100;
+  color: rgb(63, 63, 63);
 }
 
-.container-search{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 5px;
-    padding-right: 25px;
-    padding-left: 20px;
+.container-player {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.7);
+  flex-direction: column;
+  height: 700px;
 }
 
-.search-p {
-    padding-left: 25px;
-    padding-top: 20px;
-    opacity: 0.5;
+.container-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-left: 20px;
+}
+
+.search-label {
+  padding-left: 25px;
+  padding-top: 20px;
+  opacity: 0.5;
 }
 
 .search-bar {
-    width: 85%;
-    height: 40px;
-    border-radius: 50px;
-    border: none;
-    background-color: white;
-    padding: 25px;
-    font-size: 17px;
+  width: 85%;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  padding: 25px;
+  font-size: 17px;
 }
 
 .search-button {
-    width: 220px;
-    border-radius: 50px;
-    border: none;
-    color: white;
-    background-color: rgb(151, 151, 255);
-    font-size: 17px;
+  width: 220px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: rgb(151, 151, 255);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.container-albums {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 25px 0px 20px;
+}
+
+.container-data {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.track-subtitle {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.track-details {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.container-tracks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.track-title-container {
+  display: flex;
+  font-size: 17px;
+  color: rgb(63, 63, 63);
+  padding: 20px 0px 0px 5px;
+}
+
+.faixa-text {
+  padding-left: 24px;
+}
+
+.faixa-track {
+  padding-left: 30px;
+}
+
+.container-duration {
+  width: 60px;
+}
+
+.container-adicionar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.adicionar-album {
+  width: 220px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: rgb(151, 151, 255);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.button-track-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.button-delete {
+  width: 220px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: rgb(151, 151, 255);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.button-delete-track {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: rgb(151, 151, 255);
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.track-add {
+  width: 220px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: rgb(151, 151, 255);
+  font-size: 17px;
+  cursor: pointer;
 }

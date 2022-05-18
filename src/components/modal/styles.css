@@ -1,0 +1,36 @@
+.mask {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+  width: 500px;
+  background: white;
+  height: 500px;
+  border-radius: 25px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-button {
+  align-items: center;
+  margin: 15px;
+  border-radius: 25px;
+  border: none;
+  padding: 12px;
+  background-color: lightcoral;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
